@@ -1,0 +1,47 @@
+.promo {
+    position: relative;
+    margin-bottom: 115px;
+    &__content {
+        max-width: 550px;
+        height: 350px;
+        position: absolute;
+        top: calc(50% - 175px );
+    }
+    &__header {
+        color: #150C01;
+        font-size: 48.83px;
+        line-height: 58px;
+        font-family: 'Philosopher-Bold';
+        padding: 0;
+        margin: 0 0 25px 0;
+    }
+    &__text {
+        color: #150C01;
+        opacity: 0.7;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Roboto-Medium';
+        margin-bottom: 64px;
+    }
+    &__order {
+        background: #DC780B;
+        border-radius: 5px;
+        padding: 20px 35px;
+        font-family: 'Roboto-Regular';
+        color: #fff;
+        margin-right: 24px;
+    }
+    &__details {
+        border-radius: 5px;
+        padding: 20px 35px;
+        font-family: 'Roboto-Regular';
+        color: #DC780B;
+        border: 1.5px solid rgba(220, 120, 11, 0.7);
+    }
+    &__img {
+        position: relative;
+        z-index: -1;
+        left: 566px;
+        top: -67px;
+    }
+}

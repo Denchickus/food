@@ -1,0 +1,39 @@
+.header {
+    min-height: 105px;
+    padding-top: 30px;
+    &__inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__btn {
+        margin-left: auto;
+    }
+    .menu {
+        margin-left: 35px;
+        &__list {
+            display: flex;
+            list-style-type: none;
+        }
+        &__list-link {
+            color: #150C01;
+            opacity: 0.6;
+            font-family: 'Roboto-Regular';
+        }
+        &__list-link:hover {
+            color: #DC780B;
+            font-family: 'Roboto-Medium';
+            opacity: 1;
+        }
+        &__list-item+.menu__list-item {
+            padding-left: 40px;
+          }
+    }
+    &__btn {
+        padding: 14px 30px;
+        background: #DC780B;
+        border-radius: 5px;
+        font-family: 'Roboto-Regular';
+        color: #fff;
+    }
+}
