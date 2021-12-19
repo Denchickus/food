@@ -1,0 +1,20 @@
+.features {
+    &__title {
+        font-family: "Roboto-Medium";
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #DC780B;
+        opacity: 0.7;
+        margin: 0 0 10px 0;
+    }
+    &__subtitle {
+        font-family: "Philosopher-Bold";
+        font-size: 31.25px;
+        text-transform: capitalize;
+        color: #150C01;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+}
