@@ -1,11 +1,12 @@
 .promo {
     position: relative;
     margin-bottom: 115px;
+    padding-bottom: 100px;
     &__content {
         max-width: 550px;
-        height: 350px;
         position: absolute;
-        top: calc(50% - 175px );
+        top: 50%;
+        transform: translate(0, -50%);
     }
     &__header {
         color: #150C01;
@@ -21,7 +22,7 @@
         font-size: 16px;
         line-height: 24px;
         font-family: 'Roboto-Medium';
-        margin-bottom: 64px;
+        margin-bottom: 70px;
     }
     &__order {
         background: #DC780B;
