@@ -40,7 +40,23 @@ ul li {
     list-style-type: none;
 }
 
+img {
+    vertical-align: top;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.ibg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    img {
+        display: none;
+    }
+}
+
 @import 'blocks/header';
 @import 'blocks/footer';
 @import 'blocks/promo';
 @import 'blocks/features';
+@import 'blocks/about-us';
