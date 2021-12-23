@@ -1,0 +1,103 @@
+.menu {
+    &__title {
+        color: rgba(220, 120, 11, 0.7);
+        font-family: "Roboto-Medium";
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__subheader {
+        font-family: "Philosopher-Bold";
+        font-size: 31.25px;
+        color: #150C01;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__text {
+        width: 745px;
+        margin: 0 auto;
+        font-family: 'Roboto-Regular';
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(21, 12, 1, 0.7);
+        margin-bottom: 60px;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .card {
+            width: 360px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 75px 10px 10px 10px;
+            padding-bottom: 25px;
+            &__img {
+                border-radius: 76px 10px 76px 0px;
+                -webkit-border-radius: 76px 10px 76px 0px;
+                -moz-border-radius: 76px 10px 76px 0px;
+                -ms-border-radius: 76px 10px 76px 0px;
+                -o-border-radius: 76px 10px 76px 0px;
+                margin-bottom: 20px;
+                height: 264px;
+                width: 100%;
+            }
+            &__dish {
+                display: flex;
+                justify-content: space-between;
+                font-family: "Philosopher-Bold";
+                font-size: 25px;
+                color: #150C01;
+                margin-bottom: 20px;
+            }
+            &__text {
+                font-family: 'Roboto-Regular';
+                font-size: 16px;
+                line-height: 24px;
+                color: #150C01;
+                opacity: 0.7;
+                margin-bottom: 20px;
+            }
+            .card-container {
+                width: 310px;
+                margin: 0 auto;
+            }
+            &__rating {
+                display: flex;
+                justify-content: space-between;
+            }
+            &__plus {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35px;
+                height: 35px;
+                background: #DC780B;
+                border-radius: 5px;
+                cursor: pointer;
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 12px;
+                    height: 2px;
+                    background-color: #fff;
+                }
+                &:after {
+                    content : '';
+                    display: block;
+                    height: 12px;
+                    width: 2px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: #fff;
+                }
+            }
+            
+        }
+        margin-bottom: 50px;
+    }
+}
