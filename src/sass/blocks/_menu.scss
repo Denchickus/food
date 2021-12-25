@@ -67,7 +67,71 @@
             &__rating {
                 display: flex;
                 justify-content: space-between;
+                .simple-rating {
+                    position: relative;
+                    font-size: 25px;
+                    display: inline-block;
+                    color: #EDEDED;
+                    &__items {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        flex-direction: row-reverse;
+                        overflow: hidden;
+                        .simple-rating__item {
+                            position: absolute;
+                            width: 0%;
+                            height: 0%;
+                            opacity: 0;
+                            visibility: hidden;
+                            top: 0;
+                            left: 0;
+                            &:checked,
+                            &:checked ~ .simple-rating__label {
+                                color: #DC780B;
+                            }
+                        }
+                    }
+                    &__label {
+                        flex: 0 0 20%;
+                        height: 100%;
+                        cursor: pointer;
+                        color: #EDEDED;
+                        &:before {
+                            content: '★';
+                            display: block;
+                            transition: all 0.3s ease 0s                            ;
+                            -webkit-transition: all 0.3s ease 0s                            ;
+                            -moz-transition: all 0.3s ease 0s                            ;
+                            -ms-transition: all 0.3s ease 0s                            ;
+                            -o-transition: all 0.3s ease 0s                            ;
+                        }
+                        &:hover, 
+                        &:hover ~ .simple-rating__label, 
+                        &:checked ~ .simple-rating__label:hover
+                        {
+                            color: #DC780B;
+                        }
+
+
+                    }
+                }
+
+                .simple-rating:before {
+                    content: '★★★★★';
+                    display: block;
+                    
+                }
+                
             }
+
+
+            
+
+
             &__plus {
                 position: relative;
                 display: flex;
