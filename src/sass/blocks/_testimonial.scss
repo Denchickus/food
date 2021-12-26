@@ -1,0 +1,25 @@
+.testimonial {
+    &__header {
+        font-family: "Roboto-Medium";
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(220, 120, 11, 0.7);
+        margin: 0 0 12px 0;
+    }
+    &__subheader {
+        font-family: "Philosopher-Bold";
+        font-size: 31.25px;
+        color: #000000;
+        text-align: center;
+        margin: 0 0 23px 0;
+    }
+    &__text {
+        font-family: 'Roboto-Regular';
+        line-height: 24px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 0 0 18px 0;
+    }
+}
