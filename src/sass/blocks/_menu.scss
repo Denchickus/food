@@ -1,4 +1,5 @@
 .menu {
+    margin-bottom: 120px;
     &__title {
         color: rgba(220, 120, 11, 0.7);
         font-family: "Roboto-Medium";
@@ -163,5 +164,16 @@
             
         }
         margin-bottom: 50px;
+    }
+    &__btn {
+        display: block;
+        padding: 12px 25px;
+        width: 143px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid rgba(220, 120, 11, 0.2);
+        border-radius: 5px;
+        font-family: "Roboto-Medium";
+        color: #DC780B;
     }
 }

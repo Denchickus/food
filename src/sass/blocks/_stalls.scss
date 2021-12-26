@@ -1,0 +1,92 @@
+.stalls {
+    background-color: rgba(251, 241, 231, 0.4);
+    min-height: 518px;
+    margin-bottom: 210px;
+    position: relative;
+    .container-stalls {
+        width: 949px;
+        margin: 0 auto;
+        display: flex;
+    }
+    &__content {
+        max-width: 555px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        
+    }
+    &__img {
+        position: absolute;
+        left: 1104px;
+        width: 324px;
+        height: 651px;
+        top: -66.5px;
+    }
+    &__header {
+        font-family: "Roboto-Medium";
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: rgba(220, 120, 11, 1);
+        margin-bottom: 5px;
+    }
+    &__subheader {
+        font-family: "Philosopher-Bold";
+        font-size: 31.25px;
+        line-height: 41px;
+        color: #150C01;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-family: 'Roboto-Regular';
+        line-height: 24px;
+        color: rgba(21, 12, 1, 0.7);
+        margin-bottom: 40px;
+    }
+    &__btns {
+        .apple {
+            padding: 11px 26px;
+            background: #150C01;
+            border-radius: 5px;
+            font-family: "Roboto-Medium";
+            color: #FFFFFF;
+            &--img {
+                width: 26px;
+                height: 26px;
+                position: relative;
+                top: -4px;
+                left: -8px;
+            }
+        }
+        .google {
+            border: 1.5px solid rgba(21, 12, 1, 0.2);
+            border-radius: 5px;
+            padding: 11px 26px 11px 26px;
+            margin-left: 30px;
+            font-family: "Roboto-Medium";
+            color: #150C01;
+            &--img {
+                width: 24px;
+                height: 26px;
+                position: relative;
+                top: -4px;
+                left: -5px;   
+            }
+            // &:before {
+            //     content: '';
+            //     position: absolute;
+            //     background-image: url('../img/google.svg');
+            //     width: 26px;
+            //     height: 26px;
+            //     background-repeat: no-repeat;
+            //     top: 50%;
+            //     transform: translateY(-50%);
+            //     -webkit-transform: translateY(-50%);
+            //     -moz-transform: translateY(-50%);
+            //     -ms-transform: translateY(-50%);
+            //     -o-transform: translateY(-50%);
+            //     left: -7px;
+            // }
+        }
+    }
+}
