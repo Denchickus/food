@@ -17,10 +17,10 @@
     }
     &__img {
         position: absolute;
-        left: 1104px;
         width: 324px;
         height: 651px;
-        top: -66.5px;
+        top: -13%;
+        right: 17.4%;
     }
     &__header {
         font-family: "Roboto-Medium";
@@ -43,6 +43,7 @@
         color: rgba(21, 12, 1, 0.7);
         margin-bottom: 40px;
     }
+
     &__btns {
         .apple {
             padding: 11px 26px;
